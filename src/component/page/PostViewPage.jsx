@@ -1,9 +1,10 @@
+import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import CommentList from '../list/CommentList';
-import TextInput from '../util/TextInput';
+import TextInput from '../ui/TextInput';
 import Button from '../ui/Button';
-import data from '../data.json';
+import data from '../../data.json';
 
 const PostContainer = styled.div`
   padding: 8px 16px;

@@ -4,25 +4,28 @@ import styled from 'styled-components';
 import TextInput from '../ui/TextInput';
 import Button from '../ui/Button';
 
-function PostWritePage(props) {
-  const navigate = useNavigate();
-  const [title, setTitle] = useState('');
-  const [content, setContent] = useState('');
-  const Wrapper = styled.div`
+const Wrapper = styled.div`
     width: calc(100% - 32px);
     padding: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  `;
-  const Container = styled.div`
+`;
+const Container = styled.div`
     width: 100%;
     max-width: 720px;
     & > *:not(:last-child) {
-      margin-bottom: 16px;
+    margin-bottom: 16px;
     }
-  `;
+`;
+
+function PostWritePage(props) {
+  const navigate = useNavigate();
+
+  const [title, setTitle] = useState('');
+  const [content, setContent] = useState('');
+
 
   return (
     <Wrapper>
