@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PostListItem from './PostListItem';
 
 
 const Wrapper = styled.div`
