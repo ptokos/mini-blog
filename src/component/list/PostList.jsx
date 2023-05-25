@@ -18,7 +18,7 @@ function PostList(props) {
     return (
         <Wrapper>
             {/* posts 배열을 map 함수를 사용하여 순회합니다. */}
-            {posts.map((post) => {
+            { posts.map((post) => {
                 return (
                     <PostListItem
                         key={post.id} // 각 PostListItem 컴포넌트에 key로 post의 id를 할당합니다.

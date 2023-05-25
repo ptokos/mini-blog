@@ -36,8 +36,8 @@ function MainPage(props) {
                     }}
                 />
                 <PostList
-                    post={data}
-                    onCickItem = {(item) => {
+                    posts={data}
+                    onClickItem = {(item) => {
                         navigate(`/post/${item.id}`);
                     }}
                 />
