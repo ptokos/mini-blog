@@ -54,4 +54,4 @@ function PostListItem(props) {
     );
 }
 
-export default Button;
+export default PostListItem;
