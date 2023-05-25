@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 // styled-components를 import합니다.
 
-const styledButton = styled.button`
+const StyledButton = styled.button`
     /* 버튼 스타일을 정의합니다. */
     padding: 8px 16px;
     font-size: 16px;
