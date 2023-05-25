@@ -17,7 +17,7 @@ function Button(props) {
     const { title, onClick } = props;
 
     // styledButton를 사용하여 버튼을 렌더링합니다.
-    return <styledButton onClick={onClick}>{title || 'button'}</styledButton>;
+    return <StyledButton onClick={onClick}>{title || 'button'}</StyledButton>;
 }
 
 export default Button;
